@@ -1,0 +1,36 @@
+h1 {
+    color:fuchsia;
+    font-size:80px;
+    font-family:impact;
+text-align:center;
+}
+h1:hover {
+    color:black;
+}
+.button {
+    color:black;
+    font-size: 80px;
+    font-family:impact;
+    float:left;
+}
+.button:hover {
+color:fuchsia;
+}
+
+body {
+background-color:azure;
+}
+.words {
+    position: relative;
+    animation: move-words 20s linear infinite;
+    margin: 0;
+  }
+
+  @keyframes move-words {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
