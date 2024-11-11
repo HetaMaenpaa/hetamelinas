@@ -7,15 +7,6 @@ text-align:center;
 h1:hover {
     color:black;
 }
-.button {
-    color:black;
-    font-size: 80px;
-    font-family:impact;
-    float:left;
-}
-.button:hover {
-color:fuchsia;
-}
 
 body {
 background-color:azure;
@@ -36,45 +27,51 @@ background-color:azure;
   }
 
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+    box-sizing:content-box;
 }
 
 body {
-    font-family:impact;
+    font-family:monospace;
 }
 
-/* Container for grid layout */
+
 .container {
     display: grid;
     grid-template-areas: 
         "header header"
         "menu content";
     grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 5fr;
     height: 100vh;
+    gap:10px;
 }
 
 
 .header {
     grid-area: header;
     background-color:azure;
-    color: white;
-    padding: 1rem;
+    color: azure;
+    padding: 20px;
     text-align: center;
+    border:3px solid black;
 }
 
-/* Sidebar (menu) styling */
+
 .menu {
     grid-area: menu;
     background-color:azure;
     color:fuchsia;
-    padding: 1rem;
+    padding: 20px;
+    font-size:22px;
+    font-family:impact;
+    border:3px solid black;
+
 }
 
 .menu ul {
-    list-style-type: none;
+    list-style-type:none;
 }
 
 .menu li {
@@ -89,6 +86,36 @@ body {
 /* Main content styling */
 .content {
     grid-area: content;
-    padding: 2rem;
-    background-color:white;
+    padding: 20px;
+    background-color:azure;
 }
+
+body {
+    background-color:azure;
+}
+
+.menu li a:hover {
+    color:black;
+}
+
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+
+    animation: scroll 10s linear infinite;
+}
+.words {
+    position: relative;
+    animation: move-words 20s linear infinite;
+    margin: 0;
+  }
+
+  @keyframes move-words {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
