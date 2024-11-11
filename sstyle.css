@@ -97,6 +97,7 @@ body {
 
 .menu li a:hover {
     color:black;
+    box-shadow: 5px 5px 5px fuchsia;
 }
 
 .scrolling-text {
@@ -108,15 +109,15 @@ body {
 }
 .words {
     position: relative;
-    animation: move-words 20s linear infinite;
+    animation:moveBackAndForth 10s linear infinite alternate;
     margin: 0;
   }
 
-  @keyframes move-words {
+  @keyframes moveBackandForth {
     0% {
-      left: 100%;
+      left: 0%;
     }
     100% {
-      left: -100%;
+      left: calc(100%-100px);
     }
   }
