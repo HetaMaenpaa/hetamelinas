@@ -64,12 +64,12 @@ body {
     grid-area: menu;
     background-color:azure;
     color:fuchsia;
-    padding: 20px;
-    font-size:22px;
+    padding: 5px;
+    font-size:50px;
     font-family:impact;
     border:3px solid black;
     grid-auto-rows: auto;
-
+ 
 }
 
 .menu ul {
@@ -143,6 +143,7 @@ body {
     gap: 10px;
     border: 3px solid black;
     grid-auto-rows:auto;
+    grid-auto-columns:auto;
    
 }
 
@@ -174,10 +175,41 @@ h2:hover {
     border-radius:10px;
     border-color:black;
     display:inline-block;
+   
 
     
 }
 
 .styled-image:hover {
     box-shadow:3px 3px 3px fuchsia;
+    
 }
+
+.moving-header {
+    position:absolute;
+    top: 50px; 
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+    animation: moveHeader 8s infinite alternate;
+   
+  }
+  
+  @keyframes moveHeader {
+    100% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-300px); 
+    }
+  }
+
+  a {
+    color:fuchsia;
+    font-size:20px;
+    font-family:impact;
+  }
+  a:hover {
+    color:black;
+
+  }
