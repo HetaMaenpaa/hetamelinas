@@ -156,6 +156,7 @@ footer {
     width: 100%;
     height: auto;
     object-fit: cover;
+    grid-auto-rows:auto;
     
 }
 
