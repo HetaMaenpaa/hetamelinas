@@ -65,7 +65,7 @@ body {
 
 .menu {
     grid-area: menu;
-    background-color:azure;
+    background:linear-gradient(to right, fuchsia, yellow);
     color:fuchsia;
     font-size:50px;
     font-family:impact;
@@ -77,11 +77,12 @@ body {
 
 .menu ul {
     list-style-type:none;
+   
 }
 
 .menu li {
     margin: 10px 0;
-    background-color:azure;
+    background:linear-gradient(to right, fuchsia, yellow);
 }
 
 .menu a {
@@ -89,7 +90,7 @@ body {
     text-decoration:none;
     font-size:30px;
     max-width:100%;
-    background-color:azure;
+    background:linear-gradient(to right, fuchsia, yellow);
    
     
 }
@@ -105,8 +106,8 @@ body {
 }
 
 .menu li a:hover {
-    color:fuchsia;
-    box-shadow: 8px 8px 8px 8px yellow;
+    color:azure;
+    
 }
 
 
