@@ -81,6 +81,7 @@ body {
 
 .menu li {
     margin: 10px 0;
+    background-color:azure;
 }
 
 .menu a {
@@ -88,6 +89,7 @@ body {
     text-decoration:none;
     font-size:30px;
     max-width:100%;
+    background-color:azure;
    
     
 }
@@ -99,12 +101,12 @@ body {
 }
 
 body {
-    background-color:azure;
+    background:azure;
 }
 
 .menu li a:hover {
     color:fuchsia;
-    box-shadow: 5px 5px 5px fuchsia;
+    box-shadow: 8px 8px 8px 8px yellow;
 }
 
 
@@ -150,7 +152,7 @@ footer {
 h3 {
     color:black;
     font-family:impact;
-    font-size:70px;
+    font-size:50px;
     float:center;
 }
 
@@ -158,12 +160,8 @@ h3:hover {
     color:fuchsia;
 
 }
-.color-block {
-    background-color:yellow;
-    padding:10px;
-    margin: 10px;
-    border: 3px solid yellow;
-}
+
+
 
 .styled-image {
     border-radius:10px;
@@ -215,3 +213,11 @@ h3:hover {
     margin-top:10px;
 
   }
+
+
+ .text-bar {
+    background:linear-gradient(to right, fuchsia, yellow);
+    text-align:center;
+    font-size:20px;
+    font-family:impact;
+ }
