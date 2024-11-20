@@ -123,37 +123,10 @@ p:hover {
   
 }
 
-section.image-grid {
-  grid-area: content;
-  display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 20px;
-  border: 3px solid black;
-  grid-auto-rows:auto;
-  grid-auto-columns:auto;
- 
-}
 
-footer {
-  grid-area: footer;
-}
-
-.image-grid {
-  display:grid;
-  grid-template-columns:auto;
- 
- 
-}
-
-.image-grid img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  grid-auto-rows:auto;
   
 
   
-}
 
 h3 {
   color:black;
@@ -171,6 +144,36 @@ h2 {
   font-family:impact;
   font-weight:bold;
   font-size:40px;
+}
+
+section.image-grid {
+  grid-area: content;
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  border: 3px solid black;
+  grid-auto-rows:auto;
+  grid-auto-columns:auto;
+ 
+}
+
+footer {
+  grid-area: footer;
+}
+
+.image-grid {
+  display:grid;
+  grid-template-columns:repeat (auto-fit, minmax(250px, 1fr));
+
+ 
+ 
+}
+
+.grid-item {
+  display:grid;
+  text-align:center;
+  gap:5px;
+  padding:10px;
 }
 
 .styled-image {
@@ -233,13 +236,7 @@ a:hover {
   font-family:impact;
 }
 
-.grid-item {
-  display:grid;
-  align-items:normal;
-  margin:5px;
-  text-align:center;
-  width:100%;
-}
+
 
 .item-info {
   margin-top: 10px;
@@ -281,7 +278,7 @@ button {
   cursor:grab;
 }
 button:hover {
-  color:fuchsia;
+  color:azure;
 }
 
 
@@ -296,4 +293,3 @@ button:hover {
   border-radius:10px;
   padding: 2px;
 }
-
