@@ -5,7 +5,7 @@ h1 {
 text-align:center;
 }
 h1:hover {
-  color:azure;
+  color:fuchsia;
  
 }
 
@@ -65,7 +65,7 @@ body {
 
 .menu {
   grid-area: menu;
-  background:linear-gradient(to right, fuchsia, yellow);
+  background:linear-gradient(to right,  violet, yellow, azure);
   color:fuchsia;
   font-size:50px;
   font-family:impact;
@@ -82,7 +82,7 @@ body {
 
 .menu li {
   margin: 10px 0;
-  background:linear-gradient(to right, fuchsia, yellow);
+ 
 }
 
 .menu a {
@@ -90,13 +90,13 @@ body {
   text-decoration:none;
   font-size:30px;
   max-width:100%;
-  background:linear-gradient(to right, fuchsia, yellow);
+  
  
   
 }
 .content {
   grid-area: content;
-  background:linear-gradient(to right, fuchsia, yellow);
+  background:linear-gradient(to right, violet, yellow, azure);
   border: 3px solid black;
 }
 
@@ -183,16 +183,16 @@ footer {
   object-fit:cover;
  width:250px;
  height:250px;
- border:3px solid black;
+ border:2px solid yellow;
  padding:3px;
- border-radius:5px;
+
  cursor:grab;
 
   
 }
 
 .styled-image:hover {
-  box-shadow:10px 10px 10px 10px fuchsia;
+  box-shadow:3px 3px 3px 3px fuchsia;
   
 }
 
@@ -235,7 +235,7 @@ a:hover {
 
 
 .text-bar {
-  background:linear-gradient(to right, fuchsia, yellow);
+  background:linear-gradient(to right, violet, yellow, azure);
   text-align:center;
   font-size:20px;
   font-family:impact;
@@ -247,6 +247,7 @@ a:hover {
   margin-top: 10px;
   border: 3px solid black;
   border-radius:3px;
+  background:linear-gradient(to right, violet, yellow, azure);
 }
 
 .add-to-bag {
@@ -259,7 +260,7 @@ a:hover {
 }
 
 .contact-form-container {
-  background:yellow;
+  background:linear-gradient(to right, violet, yellow, azure);
 max-width: 400px;
 margin:0 auto;
 padding:10px;
