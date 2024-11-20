@@ -167,7 +167,11 @@ h3:hover {
 
 }
 
-
+h2 {
+  font-family:impact;
+  font-weight:bold;
+  font-size:40px;
+}
 
 .styled-image {
   margin:0 auto;
@@ -261,25 +265,35 @@ float:left;
 margin-top:35px;
 }
 
-label {
-  margin-bottom: 8px;
-  font-weight: bold;
-}
 
-.contact-form textarea {
+ textarea {
 resize:none;
-height:80px;
+border:2px solid black;
+border-radius:10px;
 }
 
 
-.contact-form-button {
+button {
+  border:2px solid black;
+  border-radius:10px;
   background-color:azure;
   color:black;
   cursor:grab;
 }
-.contact.form-button:hover {
+button:hover {
   color:fuchsia;
 }
 
 
+.email-input {
+  border:2px solid black;
+  border-radius:10px;
+  padding:2px;
+}
+
+.name-input {
+  border:2px solid black;
+  border-radius:10px;
+  padding: 2px;
+}
 
