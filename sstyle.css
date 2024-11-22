@@ -149,7 +149,7 @@ h2 {
 section.image-grid {
   grid-area: content;
   display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
   border: 3px solid black;
   grid-auto-rows:auto;
@@ -286,7 +286,7 @@ button {
   cursor:grab;
 }
 button:hover {
-  color:azure;
+  color:fuchsia;
 }
 
 
