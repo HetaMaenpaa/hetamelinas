@@ -4,10 +4,9 @@ h1 {
   font-family:impact;
 text-align:center;
 }
-h1:hover {
-  color:fuchsia;
+
  
-}
+
 
 body {
 background-color:azure;
@@ -16,25 +15,6 @@ background-color:azure;
   position: relative;
   animation: move-words 20s linear infinite;
   margin: 0;
-}
-
-@keyframes move-words {
-  0% {
-    left: 95%;
-  }
-  100% {
-    left: -100%;
-  }
-}
-
-* {
-  margin: 10;
-  padding: 10;
-  box-sizing:content-box;
-}
-
-body {
-  font-family:monospace;
 }
 
 
@@ -48,8 +28,6 @@ body {
       grid-template-rows:auto auto auto auto;
   gap:10px;
   width:100%;
-  
-
 }
 
 
@@ -113,20 +91,12 @@ body {
 }
 
 
-
 p {
   color:black;
   font-family:impact;
   font-size:25px;
 
 }
-
-
-
-
-  
-
-  
 
 h3 {
   color:black;
@@ -144,10 +114,10 @@ h2 {
   font-family:impact;
   font-weight:bold;
   font-size:40px;
-  box-shadow:30px 30px 30px 30px violet;
+
 margin-top:40px;
 margin-bottom:40px;
-background:linear-gradient(to right, violet, yellow, azure);
+
 width:500px;
 margin-left:350px;
 
@@ -193,7 +163,6 @@ footer {
  height:250px;
  border:2px solid yellow;
  padding:3px;
-
  cursor:grab;
 
   
@@ -227,11 +196,10 @@ a {
   color:black;
   font-size:30px;
   font-family:impact;
+  text-decoration-line:underline;
 }
-a:hover {
-  color:black;
 
-}
+
 
 .main-content {
   display:grid;
@@ -281,6 +249,8 @@ border-radius:10px;
 float:left;
 margin-top:35px;
 margin-bottom:20px;
+
+
 
 
 }
@@ -347,12 +317,12 @@ a:hover {
   border-color:black;
   max-width:50%;
   max-height:50%;
-margin-left:300px;
+
   background:linear-gradient(to right, violet, yellow, azure);
 }
 
 .image-container {
-  margin-top:20px;
+  margin-top:50px;
   display:flex;
   gap:10px;
   margin-left:50px;
