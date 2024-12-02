@@ -8,16 +8,20 @@ text-align:center;
  
 
 
-body {
-background-color:azure;
-}
+
 .words {
   position: relative;
-  animation: move-words 20s linear infinite;
+  animation: move-words 25s linear infinite;
   margin: 0;
 }
 
-
+.welcome {
+  color:black;
+  font-family:Impact;
+  font-size:70px;
+  margin-left:10px;
+  margin-top:20px;
+}
 .container {
   display:grid;
   grid-template-areas: 
@@ -38,18 +42,18 @@ background-color:azure;
   align-items:center; color: azure;
   padding:0;
   text-align: center;
-  border:3px solid black;
+  border:6px solid black;
 
 }
 
 
 .menu {
   grid-area: menu;
-  background:linear-gradient(to right,  violet, yellow, azure);
+  background:linear-gradient(to right, azure, violet, azure);
   color:fuchsia;
   font-size:50px;
   font-family:impact;
-  border:3px solid black;
+  border:6px solid black;
   grid-auto-rows: auto;
   font-weight:100;
 
@@ -76,19 +80,18 @@ background-color:azure;
 }
 .content {
   grid-area: content;
-  background:linear-gradient(to right, violet, yellow, azure);
-  border: 3px solid black;
+  background:linear-gradient(to right, azure, violet, azure);
+  border: 6px solid black;
 }
 
 
 body {
-  background:azure;
+  background:gainsboro;
 }
 
-.menu li a:hover {
-  color:azure;
+
   
-}
+
 
 
 p {
@@ -105,21 +108,20 @@ h3 {
   float:center;
 }
 
-h3:hover {
-  color:azure;
 
-}
+
+
 
 h2 {
   font-family:impact;
   font-weight:bold;
-  font-size:40px;
+  font-size:150px;
 
 margin-top:40px;
 margin-bottom:40px;
 
-width:500px;
-margin-left:350px;
+
+margin-left:450px;
 
 
 }
@@ -129,7 +131,7 @@ section.image-grid {
   display: flex;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
-  border: 3px solid black;
+  border: 6px solid black;
   grid-auto-rows:auto;
   grid-auto-columns:auto;
  
@@ -161,7 +163,7 @@ footer {
   object-fit:cover;
  width:250px;
  height:250px;
- border:2px solid yellow;
+ border:6px solid black;
  padding:3px;
  cursor:grab;
 
@@ -194,7 +196,7 @@ footer {
 
 a {
   color:black;
-  font-size:30px;
+  font-size:100px;
   font-family:impact;
   text-decoration-line:underline;
 }
@@ -211,11 +213,11 @@ a {
 
 
 .text-bar {
-  background:linear-gradient(to right, violet, yellow, azure);
+  background:linear-gradient(to right, azure, violet, azure);
   text-align:center;
   font-size:20px;
   font-family:impact;
-  border: 3px solid black;
+  border: 6px solid black;
   border-radius:3px;
 }
 
@@ -225,13 +227,13 @@ a {
   margin-top: 10px;
   border: 3px solid black;
   border-radius:3px;
-  background:linear-gradient(to right, violet, yellow, azure);
+  background:linear-gradient(to right, grey, azure, grey);
   
 
 }
 
 .add-to-bag {
-  background-color:fuchsia;
+  background:linear-gradient(to right, azure, violet, azure);
   font-family:impact;
   color:black;
   cursor:grab;
@@ -240,11 +242,11 @@ a {
 }
 
 .contact-form-container {
-  background:linear-gradient(to right, violet, yellow, azure);
+  background:linear-gradient(to right, azure, violet, azure);
 max-width: 400px;
 margin:0 auto;
 padding:10px;
-border:2px solid black;
+border:6px solid black;
 border-radius:10px;
 float:left;
 margin-top:35px;
@@ -298,7 +300,7 @@ h2 {
 
 a {
   font-family:impact;
-  font-size:60px;
+  font-size:110px;
  text-decoration-line:none;
 }
 
@@ -310,7 +312,7 @@ a:hover {
 
 .about-us-container {
   display:grid;
-  border:3px solid black;
+  border:6px solid black;
   border-radius:5px;
   margin-bottom:20px;
   margin-top:20px;
@@ -318,14 +320,14 @@ a:hover {
   max-width:50%;
   max-height:50%;
 
-  background:linear-gradient(to right, violet, yellow, azure);
+  background:linear-gradient(to right, azure, violet, azure);
 }
 
 .image-container {
-  margin-top:50px;
+  margin-top:70px;
   display:flex;
   gap:10px;
-  margin-left:50px;
+  margin-left:20px;
 }
 
 .image-container img {
@@ -333,7 +335,7 @@ a:hover {
   height:100%;
   object-fit:cover;
   border-radius:10px;
-  border:2px solid azure;
+  border:6px solid azure;
   border-color:black;
   transition: all ease-in-out 1s;
 }
