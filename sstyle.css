@@ -44,7 +44,7 @@ h1 {
   background:linear-gradient(to right, azure,grey, azure);
   font-size:50px;
   font-family:monospace;
-  border:6px solid black;
+  border:3px solid black;
   
 
 }
@@ -70,7 +70,7 @@ h1 {
 .content {
   grid-area: content;
   background:linear-gradient(to right, azure, grey, azure);
-  border: 6px solid black;
+  border: 3px solid black;
  margin-left:5px;
 
 }
@@ -119,14 +119,17 @@ section.image-grid {
   grid-area: content;
   display: flex;
   gap: 20px;
-  border: 6px solid black;
+  border: 3px solid black;
   grid-auto-rows:auto;
   grid-auto-columns:auto;
  margin-top:50px;
 }
 
 footer {
-  grid-area: footer;
+  font-family:monospace;
+ 
+ 
+
 }
 
 .image-grid {
@@ -206,7 +209,9 @@ a {
   text-align:center;
   font-size:20px;
   font-family:monospace;
-  border: 6px solid black;
+  border: 3px solid black;
+  color:blue;
+  font-weight:bold;
   
 }
 
@@ -235,7 +240,7 @@ a {
 max-width: 400px;
 margin:0 auto;
 padding:10px;
-border:6px solid black;
+border:3px solid black;
 border-radius:10px;
 float:left;
 margin-top:35px;
@@ -289,20 +294,21 @@ h2 {
 }
 
 a {
-  font-family:impact;
-  font-size:110px;
+  font-family:monospace;
+  font-size:90px;
  text-decoration-line:none;
+ color:blue;
 }
 
 a:hover {
-  color:fuchsia;
+ 
 
   
 }
 
 .about-us-container {
   display:grid;
-  border:6px solid black;
+  border:3px solid black;
   border-radius:5px;
   margin-bottom:20px;
   margin-top:50px;
@@ -342,7 +348,8 @@ h2 {
 }
 
 h4 {
-  font-size: 50px;
+  font-size: 40px;
   color:blue;
   font-family:monospace;
+  margin-left: 20px;
 }
