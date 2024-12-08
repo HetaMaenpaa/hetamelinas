@@ -245,7 +245,7 @@ a:hover {
 
 .contact-form-container {
   background:linear-gradient(to right, violet, azure, violet);
-width: 600px;
+width: 1200px;
 margin:0 auto;
 padding:10px;
 border:3px solid black;
@@ -356,7 +356,7 @@ h4 {
 
   .footer-line {
     background-color: violet;
-    margin:0%;
+    margin:%;
     width:100%;
     
   }
