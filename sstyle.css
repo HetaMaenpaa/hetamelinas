@@ -1,7 +1,8 @@
 h1 {
   color:black;
   font-size:120px;
-  font-family:monospace;
+  font-family:impact;
+ 
 
 
 }
@@ -55,14 +56,16 @@ h1 {
   text-decoration:none;
   font-size:30px;
   max-width:100%;
-  font-family:monospace;
+  font-family:impact;
   color:black;
-  font-weight:bold;
   
- 
+  
   
 }
 
+.menu a:hover{
+  color:yellow;
+}
 
 .content {
   grid-area: content;
@@ -89,7 +92,7 @@ body {
   }
 p {
   color:black;
-  font-family:monospace;
+  font-family:impact;
   font-size:30px;
   white-space:normal;
   font-weight:bold;
@@ -203,7 +206,7 @@ a {
 }
 
 a:hover {
-  color:yellow;
+  color:violet;
 }
 
 .main-content {
@@ -293,7 +296,7 @@ button {
 
 
 a {
-  font-family:monospace;
+  font-family:impact;
   font-size:90px;
  color:black;
 }
@@ -329,7 +332,7 @@ a {
 
 h2 {
   color:black;
-  font-family:monospace;
+  font-family:impact;
   font-size:100px;
   margin-top:40px;
   
@@ -338,8 +341,8 @@ h2 {
 h4 {
   font-size: 100px;
   color:black;
-  font-family:monospace;
-  margin-left: 100px;
+  font-family:impact;
+  margin-left: 50px;
   font-weight:bold;
   margin-top:50px;
   margin-bottom:5px;
