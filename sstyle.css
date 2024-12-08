@@ -12,11 +12,7 @@ h1 {
 
 
 
-.words {
-  position: relative;
-  animation: move-words 25s linear infinite;
-  margin: 0;
-}
+
 
 
 .container {
@@ -133,6 +129,8 @@ section.image-grid {
   grid-auto-rows:auto;
   grid-auto-columns:auto;
  margin-top:50px;
+ grid-template-columns: repeat(2, 1fr);
+ 
 }
 
 footer {
@@ -180,6 +178,21 @@ border:3px solid black;
   
 }
 
+
+.words {
+  position: relative;
+  animation: move-words 25s linear infinite;
+  margin: 0; }
+  
+@keyframes moveHeader {
+  100% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300px); 
+  }
+}
+
 .moving-header {
   position:absolute;
   top: 30px; 
@@ -188,14 +201,6 @@ border:3px solid black;
   font-weight: bold;
   animation: moveHeader 12s infinite alternate-reverse;
  
-}
-@keyframes moveHeader {
-  100% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-300px); 
-  }
 }
 
 
