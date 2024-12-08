@@ -7,12 +7,6 @@ h1 {
 }
 
 
-
-
-
-
-
-
 .container {
   display:grid;
   grid-template-areas: 
@@ -74,7 +68,7 @@ h1 {
   grid-area: content;
   background:linear-gradient(to right, violet, azure, violet);
   border: 3px solid black;
- margin-left:5px;
+  margin-left:1px;
 
 
 }
