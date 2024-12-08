@@ -3,9 +3,12 @@ h1 {
   font-size:120px;
   font-family:monospace;
 
+
 }
 
- 
+ h1:hover {
+  color:yellow;
+ }
 
 
 
@@ -82,9 +85,18 @@ h1 {
 
 body {
   background:silver;
+  margin:0;
+  padding:0;
 }
 
-
+@media (max-width:768px) {
+.container {
+  grid-template-colums:1fr;
+  h1 {
+    font-size:2rem;
+  }
+}
+}
 p {
   color:blue;
   font-family:monospace;
@@ -100,7 +112,7 @@ h2 {
   font-family:impact;
   font-weight:bold;
   font-size:150px;
-
+color:blue;
 margin-top:40px;
 margin-bottom:40px;
 
@@ -250,7 +262,7 @@ margin-bottom:20px;
 
  textarea {
 resize:none;
-border:2px solid black;
+border:2px solid blue;
 border-radius:10px;
 
 }
@@ -268,13 +280,13 @@ button {
 
 
 .email-input {
-  border:2px solid black;
+  border:2px solid blue;
   border-radius:10px;
   padding:2px;
 }
 
 .name-input {
-  border:2px solid black;
+  border:2px solid blue;
   border-radius:10px;
   padding: 2px;
 }
@@ -282,7 +294,7 @@ button {
 h2 {
   font-family:impact;
   font-size:60px;
-  color:black;
+  color:blue;
   
   
  
