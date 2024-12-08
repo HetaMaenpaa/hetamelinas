@@ -329,14 +329,15 @@ h2 {
   font-family:impact;
   font-size:100px;
   margin-top:40px;
+  margin-left:300px;
   
 }
 
 h4 {
-  font-size: 100px;
+  font-size: 80px;
   color:violet;
   font-family:impact;
-  margin-left: 50px;
+  margin-left: 10px;
   font-weight:bold;
   margin-top:50px;
   margin-bottom:5px;
