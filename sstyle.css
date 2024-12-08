@@ -1,6 +1,6 @@
 h1 {
   color:blue;
-  font-size:120px;
+  font-size:105px;
   font-family:monospace;
 
 
@@ -37,6 +37,7 @@ h1 {
   display:grid;
   text-align: center;
   border:6px solid black;
+  padding:1rem 0;
   
 
 }
@@ -48,6 +49,9 @@ h1 {
   font-size:50px;
   font-family:monospace;
   border:3px solid black;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  
   
 
 }
@@ -89,14 +93,13 @@ body {
   padding:0;
 }
 
-@media (max-width:800px) {
-.container {
-  grid-template-columns:1fr;
-  h1 {
-    font-size:2rem;
+@media (max-width:768px) {
+  .container {
+    grid-template-columns:1fr;
+   
+    
   }
-}
-}
+  }
 p {
   color:blue;
   font-family:monospace;
