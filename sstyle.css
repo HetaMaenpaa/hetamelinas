@@ -24,7 +24,7 @@ h1 {
   grid-area: header;
   display:grid;
   text-align: center;
-  border:6px solid black;
+  border:2px solid black;
   padding:1rem 0;
   
 
@@ -36,7 +36,7 @@ h1 {
   background:linear-gradient(to right, violet,azure, violet);
   font-size:50px;
   font-family:monospace;
-  border:3px solid black;
+  border:2px solid black;
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   
@@ -67,7 +67,7 @@ h1 {
 .content {
   grid-area: content;
   background:linear-gradient(to right, violet, azure, violet);
-  border: 3px solid black;
+  border: 2px solid black;
   margin-left:1px;
 
 
@@ -337,16 +337,20 @@ a {
 h2 {
   color:black;
   font-family:monospace;
-  font-size:70px; 
+  font-size:70px;
+  margin-top:40px;
+  
 }
 
 h4 {
   font-size: 100px;
   color:black;
   font-family:monospace;
-  margin-left: 220px;
+  margin-left: 160px;
   font-weight:bold;
-  margin-top:20px;
+  margin-top:50px;
+  margin-bottom:5px;
+  
 
  }
 
