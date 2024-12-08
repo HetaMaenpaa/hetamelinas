@@ -245,7 +245,7 @@ a:hover {
 
 .contact-form-container {
   background:linear-gradient(to right, violet, azure, violet);
-max-width: 400px;
+width: 600px;
 margin:0 auto;
 padding:10px;
 border:3px solid black;
