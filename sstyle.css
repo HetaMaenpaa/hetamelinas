@@ -8,7 +8,6 @@ h1 {
 
 .container {
   display:grid;
-
   grid-template-areas: 
   "header header"
   "menu content";
@@ -23,8 +22,6 @@ h1 {
   text-align: center;
   border:2px solid black;
   padding:1rem 0;
-  
-
 }
 
 
@@ -36,15 +33,11 @@ h1 {
   border:2px solid black;
   display:grid;
   grid-template-columns: repeat(2, 1fr);
-  
-  
-
 }
 
 .menu ul {
   list-style-type:none;
 }
-
 
 
 .menu a {
@@ -54,8 +47,6 @@ h1 {
   max-width:100%;
   font-family:impact;
   color:black;
-  
-  
   
 }
 
@@ -68,8 +59,6 @@ h1 {
   background:linear-gradient(to right, violet, azure, violet);
   border: 2px solid black;
   margin-left:1px;
-
-
 }
 
 
@@ -86,14 +75,13 @@ body {
     
   }
   }
+
 p {
   color:black;
   font-family:impact;
   font-size:30px;
   white-space:normal;
   font-weight:bold;
-
-
 }
 
 
@@ -104,8 +92,6 @@ h2 {
 color:black;
 margin-top:40px;
 margin-bottom:40px;
-
-
 margin-left:450px;
 
 
@@ -115,7 +101,6 @@ section.image-grid {
   grid-area: content;
   display: flex;
   gap: 20px;
-  
   grid-auto-rows:auto;
   grid-auto-columns:auto;
  margin-top:50px;
@@ -126,8 +111,6 @@ section.image-grid {
 footer {
   font-family:monospace;
  background-color: violet;
- 
-
 }
 
 .footer-line {
@@ -137,6 +120,7 @@ footer {
   position:fixed;
  bottom:0%;
 }
+
 .image-grid {
   display:grid;
 margin-top: 20px;
@@ -163,7 +147,6 @@ border:3px solid black;
 
 .styled-image:hover {
   box-shadow:3px 3px 3px 3px violet;
-  
 }
 
 
@@ -188,7 +171,6 @@ border:3px solid black;
   font-size: 40px;
   font-weight: bold;
   animation: moveHeader 12s infinite alternate-reverse;
- 
 }
 
 
@@ -212,6 +194,9 @@ a:hover {
 
 }
 
+.container2 {
+  margin-top: 35px;
+}
 
 .text-bar {
   background:linear-gradient(to right, violet, azure, violet);
@@ -228,7 +213,6 @@ a:hover {
 
 .item-info {
   margin-top: 10px;
-
 }
 
 .add-to-bag {
@@ -254,25 +238,18 @@ margin-bottom:20px;
 
 
 }
-
-
  textarea {
 resize:none;
 border:2px solid black;
 border-radius:10px;
-
 }
 
 
 button {
-
-
   background-color:azure;
   color:black;
   cursor:grab;
 }
-
-
 
 
 .email-input {
@@ -342,12 +319,7 @@ h4 {
   margin-top:50px;
   margin-bottom:5px;
   
-
  }
-
-  .highlight {
-    background-color:violet;
-  }
 
   .footer-line {
     background-color: violet;
